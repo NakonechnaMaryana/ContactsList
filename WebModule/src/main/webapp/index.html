@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/images/contacts-icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/index.css" type="text/css">
+    <link rel="stylesheet" href="styles/filter-popup.css" type="text/css">
+    <link rel="stylesheet" href="styles/email-popup.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main-container">
+    <aside></aside>
+    <div class="content-container">
+        <header>
+            <div id="logo">
+                <h2>Contacts List</h2>
+            </div>
+            <nav>
+                <ul id="menu-list">
+                    <li>
+                        <a href="create-edit-form.html">
+                            <button>Create</button>
+                        </a>
+                    </li>
+                    <li><a href="">
+                        <button id="update-btn">Update</button>
+                    </a></li>
+                    <li>
+                        <a href="index.html">
+                            <button id="delete-btn">Delete</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <button id="filter-btn">Filters</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <button id="email-btn">Send email</button>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th id="select-all">&#10003</th>
+                    <th>Full name</th>
+                    <th>Date of birth</th>
+                    <th>Country</th>
+                    <th>City</th>
+                    <th>Street</th>
+                    <th>Post index</th>
+                    <th>Current job</th>
+                </tr>
+                </thead>
+                <tbody id="contacts-body"></tbody>
+            </table>
+            <div id="pagination-div"></div>
+        </main>
+        <footer>Created by Eugene B.<a href="https://github.com/BeG-by/ContactsList"><img src="images/github.png"
+                                                                                          alt="github"
+                                                                                          id="git-img"></a></footer>
+    </div>
+    <aside></aside>
+</div>
+
+<script src="scripts/global.js"></script>
+<script src="scripts/requests.js"></script>
+<script src="scripts/table-elements.js"></script>
+<script src="scripts/contacts_form/contacts-table-body.js"></script>
+<script src="scripts/contacts_form/pagination.js"></script>
+<script src="scripts/contacts_form/filter-popup.js"></script>
+<script src="scripts/contacts_form/email.js"></script>
+<script src="scripts/contacts_form/contacts-form-main.js"></script>
+
+</body>
+</html>

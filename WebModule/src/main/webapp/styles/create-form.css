@@ -1,0 +1,116 @@
+main {
+    flex-basis: 70%;
+    margin-top: 5px;
+}
+
+aside {
+    flex-basis: 15%;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #439BF9;
+}
+
+#avatar {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+}
+
+#avatar-div {
+    margin-left: 5px;
+}
+
+#upload-img {
+    display: none;
+}
+
+.data-form {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    border-width: 1px;
+}
+
+
+#day, #month, #year {
+    text-align: center;
+}
+
+#avatar-div {
+    flex-basis: 10%;
+}
+
+.information-div {
+    flex-basis: 80%;
+}
+
+
+#contact-data {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 500;
+}
+
+
+.tables-phone-att {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.tables-phone-att button {
+    background-color: #439BF9;
+    border-width: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#update-phone-btn:hover, #update-att-btn:hover,
+#update-phone-btn:active, #update-att-btn:active,
+#update-phone-btn:focus, #update-att-btn:focus {
+    background-color: #F4BD11;
+}
+
+#add-phone-btn:hover, #add-att-btn:hover,
+#add-phone-btn:active, #add-att-btn:active,
+#add-phone-btn:focus, #add-att-btn:focus {
+    background-color: #28a745;
+}
+
+#delete-phone-btn:hover, #delete-att-btn:hover,
+#delete-phone-btn:active, #delete-att-btn:active,
+#delete-phone-btn:focus, #delete-att-btn:focus {
+    background-color: #dc3545;
+}
+
+
+.phone-container {
+    flex-basis: 47%;
+}
+
+.att-container {
+    flex-basis: 47%;
+}
+
+.att-header, .phone-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.date-form {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.sex-radio, .maritalStatus-radio {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
